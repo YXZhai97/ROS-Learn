@@ -1,0 +1,18 @@
+1.
+catkin_make does not work the first time build a workspace 
+TRY:$ catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
+'''
+Python 3 users in ROS Melodic and earlier: note, if you are building ROS from source to achieve Python 3 compatibility, and have setup your system appropriately (ie: have the Python 3 versions of all the required ROS Python packages installed, such as catkin) the first catkin_make command in a clean catkin workspace must be:
+$ catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3
+This will configure catkin_make with Python 3. You may then proceed to use just catkin_make for subsequent builds.
+'''
+
+2.
+show hidden folders
+ctr+h
+
+3.
+after catkin_make, should source .bash file to enable rosrun 
+
+4. 
+
