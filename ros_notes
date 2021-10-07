@@ -15,4 +15,8 @@ ctr+h
 after catkin_make, should source .bash file to enable rosrun 
 
 4. 
+modify .vscode -> task.jason file then
+catkin_make with short cut: ctr+shift+b  inside vscode 
+
+
 
