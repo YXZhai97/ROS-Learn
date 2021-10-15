@@ -1,0 +1,2 @@
+plumbing_pub_sub
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/yixing/Desktop/Github/ROS-Learn/demo03_ws/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/yixing/Desktop/Github/ROS-Learn/demo03_ws/install_isolated
