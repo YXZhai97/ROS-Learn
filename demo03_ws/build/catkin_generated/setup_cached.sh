@@ -7,5 +7,9 @@
 # new environment variables
 
 # modified environment variables
+export CMAKE_PREFIX_PATH="/home/yixing/Desktop/Github/ROS-Learn/demo03_ws/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/yixing/Desktop/Github/ROS-Learn/demo03_ws/devel/lib:$LD_LIBRARY_PATH"
 export PKG_CONFIG_PATH="/home/yixing/Desktop/Github/ROS-Learn/demo03_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/yixing/Desktop/Github/ROS-Learn/demo03_ws/build'
+export ROSLISP_PACKAGE_DIRECTORIES='/home/yixing/Desktop/Github/ROS-Learn/demo03_ws/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/home/yixing/Desktop/Github/ROS-Learn/demo03_ws/src:$ROS_PACKAGE_PATH"
