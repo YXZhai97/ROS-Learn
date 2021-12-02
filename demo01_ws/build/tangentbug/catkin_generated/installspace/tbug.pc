@@ -1,0 +1,8 @@
+prefix=/home/yixing/Desktop/Github/ROS-Learn/demo01_ws/install
+
+Name: tbug
+Description: Description of tbug
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: actionlib_msgs
